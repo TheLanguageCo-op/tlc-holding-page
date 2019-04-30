@@ -186,13 +186,17 @@
 		transform: translate3d(0,0,0);
 	 Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: url("images/bg.jpg");
 	/*	background-repeat: repeat-x;*/
 		height: 100%;
 		left: 0;
 		opacity: 1;
 		position: 0;
 		top: 0;
+		 /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	}
   .no-scroll {
     -moz-animation: none !important;
@@ -200,7 +204,7 @@
     -ms-animation: none !important;
     animation: none !important;
   }
-	@-moz-keyframes bg {
+	/*@-moz-keyframes bg {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -269,7 +273,7 @@
 		width: 6750px;
 	}
 
-/* Overlay */
+*//* Overlay */
 
 	@-moz-keyframes overlay {
 		0% {
@@ -703,7 +707,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/*@-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -773,7 +777,7 @@
 			width: 6000px;
 		} }
 
-/* Normal */
+*//* Normal */
 
 	@media screen and (max-width: 1280px) {
 
@@ -785,7 +789,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/*@-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -855,7 +859,7 @@
 			width: 6000px;
 		} }
 
-/* Mobile */
+*//* Mobile */
 
 	@media screen and (max-width: 736px) {
 
@@ -871,7 +875,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/*@-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -941,7 +945,7 @@
 			width: 6000px;
 		}
 
-	/* Header */
+	*//* Header */
 
 		#header h1 {
 			font-size: 2.5em;
@@ -969,7 +973,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/*@-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -1039,7 +1043,7 @@
 			width: 6000px;
 		}
 
-	/* Header */
+	*//* Header */
 
 		#header nav {
 			padding: 0 1em;
